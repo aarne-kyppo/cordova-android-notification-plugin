@@ -26,7 +26,7 @@ var pushNotificationService = {
   },
   notificationsuccess: function(data){
     if(data){
-      alert(data);
+      alert(data.msg);
     }
   },
   error: function(errmessage){
